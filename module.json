@@ -1,0 +1,40 @@
+{
+  "id": "osd-5e-vol1",
+  "title": "One-shot Dungeons for 5E - Vol. 1",
+  "version": "1.1.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Cussa Mitre",
+      "url": "https://github.com/Cussa",
+      "discord": "CussaMitre"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "osd-5e-vol1",
+      "label": "One-shot Dungeons for 5E - Vol 1",
+      "path": "packs/osd-5e-vol1",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": ["module/osd-5e-vol1.mjs"],
+  "manifest": "https://tkc-prd-s3-manifests.s3.amazonaws.com/osd-5e-vol1/latest.json",
+  "protected": true
+}
