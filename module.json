@@ -36,5 +36,5 @@
   ],
   "esmodules": ["module/osd-5e-vol1.mjs"],
   "manifest": "https://tkc-prd-s3-manifests.s3.amazonaws.com/osd-5e-vol1/latest.json",
-  "protected": true
+  "protected": false
 }
